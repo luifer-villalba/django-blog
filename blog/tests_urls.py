@@ -9,5 +9,10 @@ class TestUrls(SimpleTestCase):
         self.assertEquals(resolve(url).func, post_list)
 
     def test_post_detail_url_is_resolved(self):
-        url = reverse('blog:post_detail', args=[1])
+        url = reverse('blog:post_detail', kwargs={
+            'year': 2024,
+            'month': 7,
+            'day': 26,
+            'post': 'sample-post'
+        })
         self.assertEquals(resolve(url).func, post_detail)
