@@ -17,6 +17,10 @@ A feature-rich blog application built with Django 5
 
 ## Release Information
 
+### v1.0.1 (2025-05-07)
+- Fixed Redis cache configuration for test environment
+- Added dummy cache backend for running tests without Redis dependency
+
 ### v1.0.0 (2024-03-19)
 - Initial stable release
 - Complete blog functionality with all core features
