@@ -15,6 +15,19 @@ A feature-rich blog application built with Django 5
 - Sitemap for better SEO
 - Pagination for post listings
 
+## Release Information
+
+### v1.0.0 (2024-03-19)
+- Initial stable release
+- Complete blog functionality with all core features
+- User authentication and authorization
+- Post management with tags and comments
+- Email sharing and RSS feed support
+- Search functionality using PostgreSQL
+- SEO optimization with sitemap
+- Comprehensive test coverage
+- Production-ready configuration
+
 ## Requirements
 
 - Python 3.8+
